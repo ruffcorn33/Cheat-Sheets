@@ -7,8 +7,8 @@
     git config --global user.email sam@example.com
 
 ### INIT
-  _Create a new local repository._
-    git init
+  Create a new local repository.
+    'git init'
 
 ### CLONE
   Check out a repository.  
