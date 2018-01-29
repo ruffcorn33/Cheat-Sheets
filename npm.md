@@ -1,3 +1,8 @@
+# npm
+npm is Node Package Manager
+installs packages/modules to system
+packages = modules = JavaScript libraries
+
 # GET VERSION
 npm -v (or --version)
 
@@ -24,7 +29,11 @@ npm delete init-license
 # INSTALLING LOCAL PACKAGES
 npm install lodash --save (or npm install --save lodash)
 npm install moment --save
-npm install gulp gulp-sass --save-dev
+npm install gulp gulp-sass --save-dev (installs a development module)
+
+# WHY TO USE --save
+You don't want to include node_modules in a production app.  
+After cloning, the user can run npm install to load all dependencies.
 
 # MOVE TO ANOTHER FOLDER
 npm install
@@ -34,7 +43,7 @@ npm install --production
 npm uninstall gulp-sass --save-dev
 npm remove gulp --save-dev
 
-#INSTALL CERTAIN VERSIONS
+# INSTALL CERTAIN VERSIONS
 npm install lodash@4.17.3 --save
 
 # UPDATE
@@ -43,6 +52,9 @@ npm update lodash --save
 # INSTALL GLOBAL MODULE
 npm install -g nodemon
 npm install -g live-server
+
+# SKIP INSTALLING DEV MODULES
+nmp install --production
 
 # RUN NODEMON
 nodemon
