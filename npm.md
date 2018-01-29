@@ -1,5 +1,3 @@
-(From Traversy Media, NPM Crash Course.  https://www.youtube.com/watch?v=jHDhaSSKmB0)
-
 # GET VERSION
 npm -v (or --version)
 
@@ -68,3 +66,5 @@ npm install live-server --save-dev
     "start": "node index.js",
     "dev": "live-server"
   },
+
+(From Traversy Media, NPM Crash Course.  https://www.youtube.com/watch?v=jHDhaSSKmB0)
