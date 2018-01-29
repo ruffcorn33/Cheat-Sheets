@@ -1,82 +1,79 @@
 # npm
-npm is Node Package Manager
-installs packages/modules to system
-packages = modules = JavaScript libraries
+* npm is _Node Package Manager_
+* installs packages/modules to system
+* packages = modules = JavaScript libraries
 
-# GET VERSION
-npm -v (or --version)
+### GET VERSION
+    npm -v (or --version)
 
-# GET HELP
-npm help
-npm
+### GET HELP
+    npm help
+    npm
 
-# CREATE PACKAGE.JSON
-npm init
-npm init -y (or --yes)
+### CREATE PACKAGE.JSON
+    npm init
+    npm init -y (or --yes)
 
-# SET DEFAULTS
-npm config set init-author-name "YOUR NAME"
-npm set init-license "MIT"
+### SET DEFAULTS
+    npm config set init-author-name "YOUR NAME"
+    npm set init-license "MIT"
 
-# GET DEFAULTS
-npm config get init-author-name
-npm get init-license
+### GET DEFAULTS
+    npm config get init-author-name
+    npm get init-license
 
-# REMOVE DEFAULTS
-npm config delete init-author-name
-npm delete init-license
+### REMOVE DEFAULTS
+    npm config delete init-author-name
+    npm delete init-license
 
-# INSTALLING LOCAL PACKAGES
-npm install lodash --save (or npm install --save lodash)
-npm install moment --save
-npm install gulp gulp-sass --save-dev (installs a development module)
+### INSTALLING LOCAL PACKAGES
+    npm install lodash --save (or npm install --save lodash)
+    npm install moment --save
+    npm install gulp gulp-sass --save-dev (installs a development module)
 
-# WHY TO USE --save
-You don't want to include node_modules in a production app.  
-After cloning, the user can run npm install to load all dependencies.
+### WHY TO USE '--save'
+* You don't want to include node_modules in a production app.  
+* After cloning, the user can run npm install to load all dependencies.
 
-# MOVE TO ANOTHER FOLDER
-npm install
-npm install --production
+### MOVE TO ANOTHER FOLDER
+    npm install
+    npm install --production
 
-# REMOVING MODULES
-npm uninstall gulp-sass --save-dev
-npm remove gulp --save-dev
+### REMOVING MODULES
+    npm uninstall gulp-sass --save-dev
+    npm remove gulp --save-dev
 
-# INSTALL CERTAIN VERSIONS
-npm install lodash@4.17.3 --save
+### INSTALL CERTAIN VERSIONS
+    npm install lodash@4.17.3 --save
 
-# UPDATE
-npm update lodash --save
+### UPDATE
+    npm update lodash --save
 
-# INSTALL GLOBAL MODULE
-npm install -g nodemon
-npm install -g live-server
+### INSTALL GLOBAL MODULE
+    npm install -g nodemon
+    npm install -g live-server
 
-# SKIP INSTALLING DEV MODULES
-nmp install --production
+### SKIP INSTALLING DEV MODULES
+    nmp install --production
 
-# RUN NODEMON
-nodemon
+### FIND ROOT FOLDER
+    npm root -g
 
-# FIND ROOT FOLDER
-npm root -g
+### REMOVE GLOBAL PACKAGES
+    npm remove -g nodemon
 
-# REMOVE GLOBAL PACKAGES
-npm remove -g nodemon
+### LISTING PACKAGES
+    npm list
+    npm list --depth 0
+    npm list --depth 1
 
-# LISTING PACKAGES
-npm list
-npm list --depth 0
-npm list --depth 1
+### INSTALL LIVE-SERVER LOCALLY
+    npm install live-server --save-dev
 
-# INSTALL LIVE-SERVER LOCALLY
-npm install live-server --save-dev
+### NPM SCRIPT
+    "scripts": {
+        "start": "node index.js",
+        "dev": "live-server"
+      },
 
-# NPM SCRIPT
-"scripts": {
-    "start": "node index.js",
-    "dev": "live-server"
-  },
-
-(From Traversy Media, NPM Crash Course.  https://www.youtube.com/watch?v=jHDhaSSKmB0)
+(From **Traversy Media, [*NPM Crash Course*](https://www.youtube.com/watch?v=jHDhaSSKmB0))
