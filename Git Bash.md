@@ -8,30 +8,30 @@
 
 ### INIT
   Create a new local repository.
-    'git init'
+    `git init`
 
 ### CLONE
   Check out a repository.  
   *Create a working copy of a local repository:*
-    git clone /path/to/repository
+    `git clone /path/to/repository`
   *For a remote server*
-    git clone username@host:/path/to/repository
+    `git clone username@host:/path/to/repository`
 
 ### STATUS
   _List the files you've changed and those you still need to add or commit_
-    git status
+    `git status`
 
 ### ADD
   _Add one or more files to staging (index)_
-    git add <filename>
-    git add .
+    `git add <filename>`
+    `git add .`
 
 ### COMMIT
   *Commit changes to head (but not yet to the remote repository):*
-    git commit -m "Commit message"
+    `git commit -m "Commit message"`
 
   *Commit any files you've added with git add, and also commit any files you've changed since then:*
-    git commit -a
+    `git commit -a`
 
 ### PUSH
   _Send changes to the master branch of your remote repository:_
