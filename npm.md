@@ -1,5 +1,6 @@
 # npm
 * npm is _Node Package Manager_
+* it is intalled automatically with node.js
 * installs packages/modules to system
 * packages = modules = JavaScript libraries
 
