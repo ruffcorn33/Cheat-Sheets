@@ -35,37 +35,37 @@
 
 ### PUSH
   _Send changes to the master branch of your remote repository:_
-    git push origin master
+    `git push origin master`
 
 ### REMOTE
-  * _If you haven't connected your local repository to a remote server, add the server to be able to push to it:_
-    git remote add origin <server>
+*   _If you haven't connected your local repository to a remote server, add the server to be able to push to it:_
+    `git remote add origin <server>`
 
   * _List all currently configured remote repositories:_
-    git remote -v
+    `git remote -v`
 
 ### BRANCHES
   _Create a new branch and switch to it:_
-    git checkout -b <branchname>
+    `git checkout -b <branchname>`
 
   _Switch from one branch to another:_
     `git checkout <branchname>`
 
   _List all the branches in your repo, and also tell you what branch you're_ currently in:
-    git branch
+    `git branch`
 
   _Delete the feature branch:_
-    git branch -d <branchname>
+    `git branch -d <branchname>`
 
   _Push the branch to your remote repository, so others can use it:_
-    git push origin <branchname>
+    `git push origin <branchname>`
 
   _Push all branches to your remote repository:_
-    git push --all origin
+    `git push --all origin`
 
   _Delete a branch on your remote repository:_
-    git push origin :<branchname>
+    `git push origin :<branchname>`
 
   _Rename a branch:_
-    git branch -m <new branch name>
-    git branch -m <old branch name> <new branch name>
+    `git branch -m <new branch name>`
+    `git branch -m <old branch name> <new branch name>`
