@@ -12,9 +12,9 @@
 
 ### CLONE
   Check out a repository.  
-  *Create a working copy of a local repository:*
+  * *Create a working copy of a local repository:*
     `git clone /path/to/repository`
-  *For a remote server*
+  * *For a remote server*
     `git clone username@host:/path/to/repository`
 
 ### STATUS
